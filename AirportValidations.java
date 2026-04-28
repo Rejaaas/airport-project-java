@@ -112,5 +112,20 @@ public class AirportValidations {
         
         return seat.matches("^[1-9][0-9]{0,2}[A-HJ-NP-Z]$");
     }
+    
+    
+    
+    public static boolean checkCountryCode(String code){
+        if (code.length() != 3){
+            return false;
+        }
+        
+        if (!isAlphabetic(code) || (!code.equals(code.toUpperCase()))) {
+            return false;
+            
+        }
+    
+        return true;
+    }
 
 }
