@@ -127,5 +127,10 @@ public class AirportValidations {
     
         return true;
     }
+    
+    public static boolean checkCityCode(String code){
+        return checkCountryCode(code);
+    
+    }
 
 }
