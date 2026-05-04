@@ -7,4 +7,5 @@
 - checkId
 - checkMail
 - checkFormatDate(String date)
+- checkNationality
 - 
